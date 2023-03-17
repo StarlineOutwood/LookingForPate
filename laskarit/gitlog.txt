@@ -1,0 +1,117 @@
+commit 3face8c0e2c8af372061c67cf03c3c2da7e19f5a
+Author: Tuovinen Ronja K <rktuovin@melkki.cs.helsinki.fi>
+Date:   Thu Mar 16 16:02:04 2023 +0200
+
+    t11 valmis
+
+ file2.txt                          | 0
+ file3.txt                          | 0
+ tiedostoja/file1.txt               | 0
+ tiedostoja/file2.txt               | 0
+ file1.txt => tiedostoja/file22.txt | 0
+ 5 files changed, 0 insertions(+), 0 deletions(-)
+
+commit 27b95550362346f017bffa402d5b327085b78521
+Author: Tuovinen Ronja K <rktuovin@melkki.cs.helsinki.fi>
+Date:   Thu Mar 16 15:55:53 2023 +0200
+
+    fileja lisaa
+
+ tiedostoja/file1.txt | 0
+ tiedostoja/file2.txt | 0
+ tiedostoja/file3.txt | 0
+ 3 files changed, 0 insertions(+), 0 deletions(-)
+
+commit a35494061ae5fceb0a437d6fa40313b16b416551
+Author: Tuovinen Ronja K <rktuovin@melkki.cs.helsinki.fi>
+Date:   Thu Mar 16 15:52:28 2023 +0200
+
+    fileja tulossa
+
+ file1.txt | 0
+ file2.txt | 0
+ file3.txt | 0
+ 3 files changed, 0 insertions(+), 0 deletions(-)
+
+commit 1dc109687728fc6089c50f02b3aa0fe3bbde0fb2
+Author: Tuovinen Ronja K <rktuovin@melkki.cs.helsinki.fi>
+Date:   Thu Mar 16 15:45:30 2023 +0200
+
+    eka
+
+ eka.txt | 5 +++++
+ 1 file changed, 5 insertions(+)
+
+commit c5b49d7dc8b2da50d77bb0ff73bc27c9b984264e
+Author: Tuovinen Ronja K <rktuovin@melkki.cs.helsinki.fi>
+Date:   Thu Mar 16 15:43:13 2023 +0200
+
+    hyvaksytaan kaikki
+
+ kolmas.txt   | 2 ++
+ tiedosto.txt | 4 ----
+ 2 files changed, 2 insertions(+), 4 deletions(-)
+
+commit 3befb8c9b116dcaaa7d69fb37c88449b44078e4d
+Author: Tuovinen Ronja K <rktuovin@melkki.cs.helsinki.fi>
+Date:   Thu Mar 16 15:36:22 2023 +0200
+
+    t8 suoritettu
+
+ toinen.txt | 7 -------
+ 1 file changed, 7 deletions(-)
+
+commit a3adf6f04bf4a5459dd24c5c0f6cade0534f2517
+Author: Tuovinen Ronja K <rktuovin@melkki.cs.helsinki.fi>
+Date:   Thu Mar 16 15:30:29 2023 +0200
+
+    Critical role stats becayse VAX
+
+ stuff/CritStats.txt | 0
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+
+commit 87776145d05886d7bd172d3205f365b069300a66
+Author: Tuovinen Ronja K <rktuovin@melkki.cs.helsinki.fi>
+Date:   Thu Mar 16 15:27:59 2023 +0200
+
+    Percy is my fave
+
+ kolmas.txt | 1 +
+ toinen.txt | 2 ++
+ 2 files changed, 3 insertions(+)
+
+commit dcdb5fe77f6a447e731b1386e763a36ca7e52d3d
+Author: Tuovinen Ronja K <rktuovin@melkki.cs.helsinki.fi>
+Date:   Thu Mar 16 15:25:42 2023 +0200
+
+    kolmas
+
+ kolmas.txt | 0
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+
+commit e721132387e90886f206e45f449cecbdbb540406
+Author: Tuovinen Ronja K <rktuovin@melkki.cs.helsinki.fi>
+Date:   Thu Mar 16 15:23:33 2023 +0200
+
+    kaikki lisatty, koska en jaksanu erotella
+
+ tiedosto.txt                          |   4 +
+ toinen.txt                            |   5 +
+ unicafe/.coveragerc                   |   3 +
+ unicafe/poetry.lock                   | 208 ++++++++++++++++++++++++++++++++++
+ unicafe/pyproject.toml                |  16 +++
+ unicafe/src/index.py                  |  16 +++
+ unicafe/src/kassapaate.py             |  44 +++++++
+ unicafe/src/maksukortti.py            |  19 ++++
+ unicafe/src/tests/__init__.py         |   0
+ unicafe/src/tests/maksukortti_test.py |   9 ++
+ 10 files changed, 324 insertions(+)
+
+commit c2639e2bda8396b75f3c1d3a6417ed8ad7a71dfa
+Author: Tuovinen Ronja K <rktuovin@melkki.cs.helsinki.fi>
+Date:   Thu Mar 16 15:16:38 2023 +0200
+
+    tiedosto.txt valmiina
+
+ tiedosto.txt | 0
+ 1 file changed, 0 insertions(+), 0 deletions(-)
