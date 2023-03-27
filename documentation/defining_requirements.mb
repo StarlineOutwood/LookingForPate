@@ -1,0 +1,38 @@
+Purpose of the application: A fun game where Laudna is looking for her familiar, Pâté de Rolo. 
+To find her beloved dead rat with a raven skull, she needs to make her way through locked doors, creepy monsters and mysteries.
+
+(Important note here, I do not own Laudna or Pâté as characters. All characters, places and some objects belong to the Critical Role.
+I'm just a fan of their work and want to have an excuse to spend more time with my favorite character of the campaing 3.)
+
+Functionality:
+
+The very basics:
+
+- Laudna can up, down and sideways within borders of walls/bushes etc.
+- Laudna can find Pâté by going to him and "picking him up".
+- When Pâté is found, the player wins the game and an endscreen is shown.
+
+To make it an actual game:
+
+- Laudna can interact with different objects in her world. Here some that I plan to implement:
+	- Keys: pick up, use (aka open a door)
+	- Eshteross's Gingersnap Cookies: eat (just "pass through them", like collecting coins in Super Mario)
+- There are locked doors that can be unlocked with keys
+- There are some monsters or enchanted furniture that can "attack" Laudna. Laudna needs to avoid touching them
+- Health bar: touching a monster or an angry carpet will decrease it, eating Eshteross's cookies will increase it.
+- "Front page" where you have a "start a new game" button. When the game is launched tis is where it starts.
+- "You win! want to play again?"-page which shows up when you finish the game and offers you a chance to play again
+
+If time:
+
+- Laudna can do magic to defeat the monsters (monsers would also get a health bar at that point)
+- Timer and leader board of who found Pâté the fastest. When game is finished the player writes down a nickname to be shown on the leaderboard
+- More obsticles and objects to make the game harder. Some possible ideas:
+	- Spikes that you need to avoid
+	- Delilah Briarwood starts tormenting Laudna and Laudna needs to hug Imogen or something to get her off her mind
+	- Imogen is having a nightmare, wait by her side until she wakes up, bring her a glass of water calm her down when she does
+- MUSIC!
+
+Probably after course since this isn't covered on the courses area:
+- Put the game to the platform from Tietokantasovellus so it is easily accessable (aka no need to play with git, just click a link)
+- Send to Critical Role as fanart/fangame??/fangift
