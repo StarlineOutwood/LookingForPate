@@ -1,7 +1,5 @@
-# Looking For Pâtè - Game
+Defining requirements:
 
-This is the ~~frist~~ first README.md file for the course ohjelmistotekniikka.
-The **project** i will do will be named *Looking for Pâtè*
+https://github.com/StarlineOutwood/LookingForPate/blob/master/documentation/defining_requirements.mb
 
-*change*
-
+Working hours:
