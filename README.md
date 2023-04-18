@@ -5,3 +5,7 @@ https://github.com/StarlineOutwood/LookingForPate/blob/master/Looking_For_pate/d
 Working hours:
 
 https://github.com/StarlineOutwood/LookingForPate/blob/master/Looking_For_pate/documentation/working_hours.txt
+
+Architecture
+
+https://github.com/StarlineOutwood/LookingForPate/blob/master/Looking_For_pate/documentation/arkkitehtuuri.md
