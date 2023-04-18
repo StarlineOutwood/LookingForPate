@@ -11,24 +11,46 @@ from pygame.locals import (
 dirname = os.path.dirname(__file__)
 
 class Laudna(pygame.sprite.Sprite):
-    def __init__(self):
+    def __init__(self, x=0, y=0):
 
-        super(Laudna, self).__init__()
+        super().__init__()
 
         self.image = pygame.image.load(
             os.path.join(dirname, "assets", "Laudna.PNG")
         )
 
         self.rect = self.image.get_rect()
-        self.rect.x = 0
-        self.rect.y = 0
+        self.rect.x = x
+        self.rect.y = y
 
-    def move(self, pressed_keys):
+    def draw(self, surface):
+        surface.blit(self.image, (self.rect.x, self.rect.y))
+
+    def move(self, pressed_keys, walls_H, walls_V):
         if pressed_keys[K_UP]:
-            self.rect.move_ip(0, -1)
+            if self.can_move(walls_H, 0, -5): #enough to check if it hits any roof aka a horizontal wall
+                self.rect.move_ip(0, -5)
         if pressed_keys[K_DOWN]:
-            self.rect.move_ip(0, 1)
+            if self.can_move(walls_H, 0, 5):
+                self.rect.move_ip(0, 5)
         if pressed_keys[K_LEFT]:
-            self.rect.move_ip(-1, 0)
+            if self.can_move(walls_V, -5, 0):
+                self.rect.move_ip(-5, 0)
         if pressed_keys[K_RIGHT]:
-            self.rect.move_ip(1, 0)
+            if self.can_move(walls_V, 5, 0):
+                self.rect.move_ip(5, 0)
+
+    def colliding_Pate(self, pate):
+        if pygame.sprite.collide_rect(self, pate):
+            return False #Do we continue the game? if pate is found we dont
+        return True
+    
+    def can_move(self, walls, x=0, y=0):
+        self.rect.move_ip(x, y)
+        colliding_walls = pygame.sprite.spritecollide(self, walls, False)
+        can_move = not colliding_walls
+        self.rect.move_ip(-x, -y)
+        return can_move
+
+
+
