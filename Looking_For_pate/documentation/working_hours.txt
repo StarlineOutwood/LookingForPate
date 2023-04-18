@@ -10,3 +10,9 @@ Requirements: 1h
 WEEK 3:
 
 Programming: 1h
+
+Week 4:
+
+Programming 7h
+
+Total: 12h
