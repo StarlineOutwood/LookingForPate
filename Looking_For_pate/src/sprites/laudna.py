@@ -30,18 +30,20 @@ class Laudna(pygame.sprite.Sprite):
     def move(self, pressed_keys, walls_H, walls_V):
         if pressed_keys[K_UP]:
             if self.can_move(walls_H, 0, -5):
-                # enough to check if it hits any roof aka a horizontal wall
                 if self.can_move(walls_V, 0, -5):
                     self.rect.move_ip(0, -5)
         if pressed_keys[K_DOWN]:
             if self.can_move(walls_H, 0, 5):
-                self.rect.move_ip(0, 5)
+                if self.can_move(walls_V, 0, 5):
+                    self.rect.move_ip(0, 5)
         if pressed_keys[K_LEFT]:
             if self.can_move(walls_V, -5, 0):
-                self.rect.move_ip(-5, 0)
+                if self.can_move(walls_H, -5, 0):
+                    self.rect.move_ip(-5, 0)
         if pressed_keys[K_RIGHT]:
             if self.can_move(walls_V, 5, 0):
-                self.rect.move_ip(5, 0)
+                if self.can_move(walls_H, 5, 0):
+                    self.rect.move_ip(5, 0)
 
     def colliding_Pate(self, pate):
         if pygame.sprite.collide_rect(self, pate):
