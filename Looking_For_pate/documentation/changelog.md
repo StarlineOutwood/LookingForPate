@@ -6,3 +6,10 @@ Week 4:
 Laudna moves and inteacts with pate. when she touches pate, game ends and endscreen shows
 Walls have been added, Laudna can't walk though walls
 The basic mechanics of the game have been added, next we will need some obsticles and more rooms
+
+Week 5:
+More rooms and the movement between the rooms is working
+You can re-start the game when pate is found by pressing space
+New class: 
+GameLoop (where the loop of the game, or the state of the game is looping)
+Door (when laudna collides with a door, it creates a new room and directs laudna there)
