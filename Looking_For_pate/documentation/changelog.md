@@ -18,3 +18,4 @@ Week 6:
 The game restarts when wanted. When this is done it coomplitely resets
 This means that changes done to maps in the previous game are reset
 More rooms
+Eshteross's gingersnap cookies + counter for them
