@@ -23,6 +23,8 @@ Programming: 8h
 	- new rooms and moving between them
 
 Week 6:
-Programming: 6h
-	- Game reset
+Programming: 9h
+	- Game reset (3h, that was really tricky)
+	- Cookeis adn cookie counter (3h)
+	- general cleaning up, documentation and creating a better code to be tested next week (with the game it has been a struggle to come up with tests)
 
