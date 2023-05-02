@@ -1,0 +1,4 @@
+1. Download and extract the .zip-package
+2. Move to the root of the .zip-package, under the folder Looking_For_pate
+3. run "poetry install" on the command line
+4. run "poetry run invoke start" and the game starts

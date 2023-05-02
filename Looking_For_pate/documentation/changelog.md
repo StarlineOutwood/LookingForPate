@@ -13,3 +13,8 @@ You can re-start the game when pate is found by pressing space
 New class: 
 GameLoop (where the loop of the game, or the state of the game is looping)
 Door (when laudna collides with a door, it creates a new room and directs laudna there)
+
+Week 6:
+The game restarts when wanted. When this is done it coomplitely resets
+This means that changes done to maps in the previous game are reset
+More rooms

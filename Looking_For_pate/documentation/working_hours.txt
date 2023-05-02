@@ -20,3 +20,9 @@ Total: 12h
 Week 5:
 
 Programming: 8h
+	- new rooms and moving between them
+
+Week 6:
+Programming: 6h
+	- Game reset
+
